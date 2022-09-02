@@ -2,11 +2,12 @@ h4 {
   padding-left: 10%;
 }
 body {
-  background-image: url("walpaper2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("ya.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: rgb(245, 244, 244);
 }
 
 table {
@@ -18,7 +19,11 @@ h2 {
 }
 
 ol {
-  font-size: 110%;
+  font-size: 120%;
   margin-left: 45%;
   margin-right: 45%;
+}
+
+img {
+  border-radius: 50%;
 }
